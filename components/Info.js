@@ -1,10 +1,14 @@
 import React from 'react'
+import ProfilePhoto from "../images/profile-photo.JPG"
+import Mail from "../images/mail.png"
+import LinkedIn from "../images/linkedin.png"
+
 
 export default function Info() {
     return(
         <div className="info">
             <div className="profile-photo">
-                <img src="../images/profile-photo.JPG"/>
+                <img src={ProfilePhoto} />
             </div>
             <h2 className="user-name">Christian Nebo</h2>
             <h4>Frontend & Software Developer</h4>
@@ -12,11 +16,11 @@ export default function Info() {
             <p><a href="#">www.nebochristian.com</a></p>
             <div className="buttons">
                 <a href="#" className="email-button">
-                    <img src="../images/mail.png" />
+                    <img src={Mail} />
                     <p>Email</p>
                 </a>
                 <a href="#" className="linkedin-button">
-                    <img src="../images/linkedin.png" />
+                    <img src={LinkedIn} />
                     <p>LinkedIn</p>
                 </a>
             </div>

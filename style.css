@@ -10,7 +10,7 @@ body{
 }
 
 .container{
-    min-width: 550px;
+    width: 100%;
     min-height: 900px;
     background: #23252C;
     display: flex;
