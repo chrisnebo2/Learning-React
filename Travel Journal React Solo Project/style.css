@@ -34,7 +34,7 @@
     width: 100%;
     min-height: 170px;
     display: flex;
-    padding: 5px;
+    padding: 1px;
     margin-bottom: 30px;
     justify-content: center;
 }
