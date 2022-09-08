@@ -16,7 +16,9 @@ export default function App() {
     return (
         <div className="container">
             <Header />
-            {cardDetails}
+            <div className="content">
+                {cardDetails}
+            </div>
         </div>
     )
 }
