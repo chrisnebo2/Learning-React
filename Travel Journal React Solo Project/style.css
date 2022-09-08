@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    height: 55px;
+    /* outline: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background-color: red;
+    margin-bottom: 30px;
+}
+
+.website-logo {
+    width: 30px;
+    height: 30px;
+}
+
+.website-name {
+    font-weight: 500;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.card {
+    width: 100%;
+    min-height: 170px;
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+
+.card .children:nth-child(1){
+    height: 170px;
+    max-width: 135px;
+}
+.card .children:nth-child(2){
+    max-width: 350px;
+    height: 170px;
+    padding: 15px 0px 15px 15px;  
+}
+
+.card .location-image{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.card .location{
+    width: 100%;
+    height: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+}
+
+.card .location .location-icon{
+    width: 7px;
+    height: 10px;
+}
+
+.card .location .country{
+    margin-right: 10px;
+    font-weight: 500;
+    letter-spacing: 0.25em;
+}
+
+.card .location .google-link{
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    color: #918E9B;  
+}
+
+.card .title{
+    margin: 7px 0px 20px 0px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.card .date{
+    font-size: 10px;
+    font-weight: 700;
+    margin: 9px 0px;
+}
+
+.card .description{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 150%;
+    color: #2B283A;
+}
