@@ -34,7 +34,7 @@
     width: 100%;
     min-height: 170px;
     display: flex;
-    padding: 30px;
+    padding: 5px;
     margin-bottom: 30px;
     justify-content: center;
 }
@@ -42,7 +42,7 @@
 .card .children:nth-child(1){
     height: 170px;
     max-width: 135px;
-    width: 25%;
+    width: 30%;
 }
 .card .children:nth-child(2){
     max-width: 350px;
