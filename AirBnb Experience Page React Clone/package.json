@@ -4,6 +4,7 @@
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
+  "type": "module",
   "devDependencies": {
     "babel-core": "^6.0",
     "babel-loader": "^7.0",
@@ -12,6 +13,7 @@
     "webpack": "^5.74.0"
   },
   "scripts": {
+    "start": "node index.js",
     "build": "webpack",
     "watch": "webpack -w"
   }

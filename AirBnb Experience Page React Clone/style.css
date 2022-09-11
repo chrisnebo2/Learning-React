@@ -37,6 +37,7 @@ section {
 
 .hero--photo {
     max-width: 400px;
+    width: 70%;
     align-self: center;
 }
 
@@ -49,19 +50,18 @@ section {
 }
 
 .cards-list {
+    width: 100%;
     display: flex;
     flex-wrap: nowrap;
-    gap: 20px;
     overflow-x: auto;
 }
 
-.card {
+.card{
     width: 180px;
     height: 320px;
-    margin: 20px;
-    /* outline: 0.5px solid red; */
     display: flex;
     flex-direction: column;
+    overflow-y: hidden;
     font-size: 12px;
 }
 
@@ -90,13 +90,13 @@ section {
 
 .card .rating{
     width: 100%;
-    margin: 8px 0px;
+    margin: 2px 0px;
 }
 
 .card .rating .star{
     width: 12px;
     display: inline-block;
-    margin-right: 8px;
+    margin-right: 5px;
 }
 
 .card .rating .rate{
@@ -108,7 +108,7 @@ section {
 }
 
 .card .card-text p{
-    margin: 8px 0px;
+    margin: 2px 0px;
 }
 
 /* .cards-list {
